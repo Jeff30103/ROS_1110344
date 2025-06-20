@@ -12,7 +12,9 @@
 
 執行：
 roscore
+
 chmod +x ~/catkin_ws/src/slam_bot_with_fusion360-main/myrobot_description/scripts/patrol_node.py
 
 roslaunch myrobot_description gazebo.launch 
+
 roslaunch myrobot_description patrol.launch
