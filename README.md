@@ -15,6 +15,10 @@ roscore
 
 chmod +x ~/catkin_ws/src/slam_bot_with_fusion360-main/myrobot_description/scripts/patrol_node.py
 
+cd ~/catkin_ws
+catkin_make
+source devel/setup.bash
+
 roslaunch myrobot_description gazebo.launch 
 
 roslaunch myrobot_description patrol.launch
