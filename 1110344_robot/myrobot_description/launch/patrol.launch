@@ -1,0 +1,3 @@
+<launch>
+  <node name="patrol_node" pkg="myrobot_description" type="patrol_node.py" output="screen" />
+</launch>
